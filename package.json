@@ -1,0 +1,25 @@
+{
+  "name": "@gourmet-flow/restaurant-kitchen-hub",
+  "version": "1.0.0",
+  "description": "Sistema de gestao de pedidos de cozinha (KDS) e comanda em tempo real para restaurantes e delivery",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/tests/kitchen.test.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "restaurant",
+    "kds",
+    "kitchen-display-system",
+    "websocket",
+    "events",
+    "typescript"
+  ],
+  "author": "Guilherme Santiago Floriano",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
